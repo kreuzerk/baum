@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+
+.container {
+  width: 500px;
+  height: 800px;
+}
+
+.chunk-container {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+
+  &.is-column {
+    flex-direction: column;
+  }
+}
+
+.chunk {
+  background: blue;
+  padding: 2px;
+  border: 1px solid white;
+  min-width: 0;
+}
+
+
+.blue,
+.red,
+.green {
+  height: 200px;
+}
+
+.blue {
+  flex-basis: 30%;
+  background: blue;
+}
+
+.green {
+  flex-basis: 40%;
+  background: green;
+}
+
+.red {
+  flex-basis: 30%;
+  background: red;
+}
+
